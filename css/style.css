@@ -49,6 +49,7 @@ nav {
 
 .nav-menu a:hover {
   border-bottom-style: solid;
+  border-bottom-width: thin;
 }
 
 body a.btn:hover {
