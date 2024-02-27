@@ -143,7 +143,8 @@ main {
 }
 
 .project-content {
-  height: 100vh;
+  max-height: 100vh;
+  margin-bottom: 2rem;
 }
 
 .project-visuals {
@@ -170,11 +171,11 @@ main {
 }
 
 .project-title {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .project-desc {
-  margin: 0 0 3rem;
+  margin: 0 0 1.5rem;
 }
 
 .project-tech {
@@ -183,7 +184,7 @@ main {
   align-items: center;
   gap: 1rem 2.5rem;
   padding: 0;
-  margin: 0 0 3rem;
+  margin: 0 0 1.5rem;
 }
 
 .project-tech li {
@@ -395,6 +396,18 @@ footer {
     margin: 0 0 0 1rem;
   }
 
+  .project-title {
+    margin: 1.5rem 0;
+  }
+  
+  .project-desc {
+    margin: 0 0 3rem;
+  }
+  
+  .project-tech {
+    margin: 0 0 3rem;
+  }
+
   /* ABOUT SECTION */
   .about {
     height: auto;
@@ -516,6 +529,8 @@ footer {
   .hero__links {
     bottom: 3rem;
   }
+
+  /* PROJECT SECTION */
 
   .project-content {
     height: 100vh;
